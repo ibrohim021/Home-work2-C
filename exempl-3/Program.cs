@@ -9,7 +9,7 @@ Console.WriteLine("Введите число");
 
 string? numberString = Console.ReadLine();
 
-int numberDay = int.Parse(numberString);
+int numberDay = int.Parse(numberString!);
 
 if (numberDay== 6 || numberDay == 7)
 {
