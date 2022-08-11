@@ -8,10 +8,6 @@ Console.WriteLine("Введите число");
 
 string? numberString  = Console.ReadLine();
 
-int number = int.Parse(numberString!);
-
-//int therdDigital = number.Length ;
-
 if(numberString.Length > 2)
 {
     Console.WriteLine(numberString[2]);
